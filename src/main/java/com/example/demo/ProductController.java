@@ -11,7 +11,7 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping("/hi")
+    @RequestMapping("/")
     @ResponseBody
     String home() {
         return "Hello World!";
